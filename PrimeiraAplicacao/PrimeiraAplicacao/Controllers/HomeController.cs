@@ -10,7 +10,7 @@ namespace PrimeiraAplicacao.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Minha primeira aplicação com ASP.NET MVC";
+            ViewBag.Message = "Hoje é: " + System.DateTime.Today.ToString();
 
             return View();
         }
